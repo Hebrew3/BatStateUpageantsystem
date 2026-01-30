@@ -1,8 +1,6 @@
 import { useState } from 'react'
-import './App.css'
 
 const ADMIN_USERNAME = 'admin'
-// SHA-256('Admin@2026') computed earlier
 const ADMIN_HASH = 'a36aef5a11c4073fbe60314fc9df530a9d5f986533594d1f5190742ff9e0e408'
 
 function sha256Hex(message) {
